@@ -1,0 +1,6 @@
+setChartLibrary('google-chart');
+setChartTitle('Voltage Drop Monitor'); /* Your Graph Title */
+setChartType('predictionGraph'); /* This line adds the feature of ML */
+setCrosshair(true); /* Crosshairs are thin vertical and horizontal lines centered on a data point in a chart. */
+setAxisName('Time','Voltage Drop');
+plotChart('time_stamp','your_variable_name'); /* Set "your_variable_name" */
