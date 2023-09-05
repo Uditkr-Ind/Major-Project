@@ -24,7 +24,6 @@
 #include <Lithium_ion_Life_cycle_predictor_inferencing.h>
 
   float features[28] = {
-  
     // copy raw features here (for example from the 'Live classification' page)
     // see https://docs.edgeimpulse.com/docs/running-your-impulse-arduino
 };
@@ -41,7 +40,7 @@ int Linearinterpolation( float x , float x0, float x1, float y0, float y1);
 // Floats for ADC voltage & Input voltage
 float adc_voltage = 0.0;
 float in_voltage = 0.0;
- float cal_temp=0.33; // voltage reading calibration
+float cal_temp=0.33; // voltage reading calibration
 // Floats for resistor values in divider (in ohms)
 float R1 = 30000.0;
 float R2 = 7500.0; 
